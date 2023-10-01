@@ -205,6 +205,7 @@ img {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
   position: relative;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-list-link.selected {
@@ -237,6 +238,7 @@ img {
   color: var(--SLATE, #434455);
   line-height: 24px; /* 150% */
   letter-spacing: 0.02em;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .adress-list-link:hover,
@@ -293,11 +295,12 @@ img {
   border: none;
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .order-button:hover,
 .order-button:focus {
-  background: var(--ocean);
+  background-color: var(--ocean);
 }
 
 /**
@@ -411,6 +414,7 @@ img {
   border-radius: 50px;
   align-items: center;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-soc-link:hover,
@@ -474,6 +478,9 @@ background-color: var(--ocean);
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02px;
   width: 296px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .portfolio-list-item:hover {
@@ -481,12 +488,12 @@ background-color: var(--ocean);
 }
 
 
-
 .portfolio-list-item:hover .overlay {
   transform: translatey(0);
 }
 
 .portfolio-list-img {
+  width: 100%;
 }
 
 .portfolio-app-titles {
@@ -568,6 +575,7 @@ margin-bottom: 16px;
   border-radius: 50px;
   align-items: center;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .soc-footer-link:hover ,
