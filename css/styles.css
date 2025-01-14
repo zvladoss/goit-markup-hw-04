@@ -202,10 +202,15 @@ nav .logo {
   color: var(--navy-blue);
 }
 
-.address-list {
-  display: flex;
-  gap: 40px;
-}
+/* .nav-list-link.selected:after {  
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  background-color: var(--ocean);
+  border-radius: 2px;
+  bottom: -1px;
+} */
 
 .address-header {
   font-style: normal;
@@ -238,7 +243,14 @@ nav .logo {
   |============================
 */
 .hero-section {
-  background-color: var(--navy-blue);
+  background-image:linear-gradient(
+    rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)), 
+    url(../images/hero-background.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1440px, contain;
+  /* background-color: var(--navy-blue); */
   padding-top: 188px;
   padding-bottom: 188px;
 }
@@ -317,7 +329,6 @@ nav .logo {
 .team-list-item {
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background-color: var(--white);
-  
   max-width: 264px;
   border-radius: 0 0 4px 4px;
 }
@@ -381,6 +392,8 @@ nav .logo {
   width: 360px;
   height: 120px;
 }
+
+
 
 /**
   |============================
