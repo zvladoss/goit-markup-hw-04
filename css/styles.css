@@ -389,7 +389,7 @@ nav .logo {
   background-color: var(--ocean);
 } 
 .team-soc-icon {
-  fill: var(--white);
+  fill: var(--cloud);
 }
 
 
@@ -535,5 +535,5 @@ footer .logo {
   background-color: var(--green);
 }
 .soc-foot-icon {
-  fill: var(--white);
+  fill: var(--cloud);
 }
